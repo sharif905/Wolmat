@@ -1,0 +1,82 @@
+@media only screen and (min-width: 961px) {
+    .header-bottom-mobile{
+        display: none;
+    }
+    .header-top-left marquee{
+        display: none;
+    }
+}
+/* Responsive CSS */
+@media only screen and (max-width: 960px) {
+    .special-offer{
+        width: 100%;
+        margin-left: 0;
+    }
+    .header-top-left p{
+        display: none;
+    }
+    .header-top-left marquee{
+        display: block;
+    }
+    .header-top-right .other{
+        display: none;
+    }
+    .header-middle{
+        display: none;
+    }
+    .header-bottom{
+        display: none;
+    }
+    .header-bottom-mobile{
+        display: block;
+    }
+    .product .product-wrapper{
+        margin-bottom: 20px;
+        overflow: hidden;
+    }
+    .product-content{
+        top: 40px;
+        left: 60px;
+        font-weight: 600;
+    }
+    .product .product-img img{
+        width: 100%;
+    }
+    .product-content{
+        top: 10px !important;
+        left: 20px !important;
+    }
+    .populartab .nav-item .nav-link{
+        margin-bottom: 10px;
+    }
+    .product-box .product-img::before{
+        top: 30px !important;
+        left: 70px !important;
+    }
+    .natural .img-wrapper .natural-text{
+        position: absolute;
+        top: 20px !important;
+        left: 10px !important;
+    }
+    .natural .img-wrapper{
+        margin-bottom: 10px;
+    }
+    .email-subscribe button{
+        margin: 10px 0;
+    }
+    .footer-bottom{
+        text-align: center;
+    }
+    .footer-right{
+        text-align: center;
+    }
+    .footer-right p{
+        display: block;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .product-box .product-img::before{
+        top: 25px !important;
+        left: 25% !important;
+    }
+}
